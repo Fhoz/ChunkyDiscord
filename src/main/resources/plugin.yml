@@ -1,0 +1,22 @@
+name: ChunkyDiscord
+version: ${project.version}
+main: me.fhoz.chunkydiscord.ChunkyDiscord
+website: https://github.com/Fhoz/ChunkyDiscord
+api-version: 1.13
+authors: [ Fhoz ]
+description: Discord integration for the Chunky plugin
+depend:
+  - Chunky
+commands:
+  chunkydiscord:
+    description: ChunkyDiscord base command
+    usage: The installed ChunkyDiscord version does not seem to be compatible with your server setup. Check your console for more detailed info.
+permissions:
+  chunkydiscord:
+    command:
+      channel:
+        description: Allows the user to use the channel command
+        default: op
+      interval:
+        description: Allows the user to use the interval command
+        default: op

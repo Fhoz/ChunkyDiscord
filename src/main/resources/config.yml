@@ -1,0 +1,15 @@
+# ChunkyDiscord Configuration
+
+# Enable/disable debugging messages
+debug: false
+# How often the bot should update Chunky's task embeds, setting this too low will cause it to not keep up.
+update-every-x-ticks: 100
+
+# Discord bot configuration
+bot:
+  # Bot token (DON'T SHARE THIS WITH ANYONE)
+  token: CHANGE_ME
+  # Channel ID where Chunky's task updates should be sent
+  channel: CHANGE_ME
+  # Name of the bot
+  name: Chunky
