@@ -40,7 +40,7 @@ If you are having trouble getting the plugin to work, try the following:
 - Check the plugin's configuration file for any errors or typos.
 - Check the server logs for any error messages that might indicate the cause of the problem.
 
-If you are still having trouble, you can try asking for help on the plugin's support Discord server or by opening an issue on this GitHub page.
+If you are still having trouble, you can try asking for help by opening an issue on this GitHub page.
 
 ## Credits
 
